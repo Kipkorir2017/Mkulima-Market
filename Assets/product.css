@@ -1,0 +1,22 @@
+.header{
+    display:flex;
+    position:relative;
+    justify-content:space-between;
+    border: 2px solid red;
+    height:100px;
+    align-items:center;
+
+}
+.header>.logo{
+    
+}
+.header>.headertext{
+    display:flex;
+    border:2px solid black;
+    width:70%;
+    justify-content:space-around;
+}
+.header> .headertext > .producttext{
+    color:#4F9C33;
+
+}
