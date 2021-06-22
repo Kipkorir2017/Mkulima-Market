@@ -83,7 +83,6 @@ font-size: 30px;
 line-height: 30px;
 }
 #more{
-    text-align: center;
     font-family: Merriweather;
     font-style: normal;
     font-weight: normal;
@@ -93,11 +92,12 @@ line-height: 30px;
     
 }
 #more > p{
-    padding-top: 8px;
     background-color: #40A013;
-    margin-right: 350px;
-    margin-left: 350px;
+    text-align: center;
     border-radius: 20px;
+    border: 1px solid blue;
+    width: 180px;
+    margin-left: 43%;
 }
 em{
     color: #40A013;
