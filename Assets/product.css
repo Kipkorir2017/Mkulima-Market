@@ -1,4 +1,5 @@
 body{
+    width:auto;
 }
 .header{
     display:flex;
@@ -358,4 +359,45 @@ td{
     padding:10px;
     border:2px solid blue;
     border-collapse:collapse;
+}
+.vat{
+    text-align:center;
+    font-size:xx-large;
+    color:#4F9C33;
+    font-weight:bolder;
+}
+.footer{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    align-items:center;
+}
+.footer>.contactus{
+    border:2px solid green;
+    width:20%;
+    text-align:center;
+    background-color:#4F9C33;
+    border-radius:50px;
+    font-size:x-large;
+}
+.footer>.webright{
+    height:160px;
+    background-color: #F2F2F2;
+    opacity:3;
+    margin:30px;
+    width:100%;
+    box-shadow:0px 0px 4px 3px grey;
+}
+.footer>.webright>.website{
+    padding:20px;
+    margin:10px;
+    font-size:xx-large;
+}
+.footer>.webright>.copyright{
+    font-size:x-large;
+}
+em{
+    font-style: normal;
+    color:#4F9C33;
+    font-weight:600px;
 }
