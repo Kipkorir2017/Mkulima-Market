@@ -1,0 +1,38 @@
+body{
+    background: #ffff;
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    height: 8.47%;
+    background: rgb(248, 76, 8);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    padding-left: 10px;
+    padding-top:10px;
+}
+
+.line{
+    font-family: Merriweather;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+display: flex;
+text-align: center;
+}
+#home{
+    color: #40A013;
+}
+.fruits{
+   
+}
+#vision{
+    text-align: center;
+}
