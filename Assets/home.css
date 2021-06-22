@@ -33,13 +33,14 @@ width:80%;
 }
 #vision{
     text-align: center;
+    padding-top: 15px;
 }
-.log{
+.log{  
     display: flex;
     border: 2px solid blue;
     width: 70%;
     justify-content: space-evenly;
-    
+    padding-top: 10px;
 }
 #login{
     font-family: Merriweather;
@@ -47,8 +48,12 @@ width:80%;
     font-weight: normal;
     font-size: 36px;
     line-height: 45px;
-    background-color: greenyellow;
+    background-color: #40A013;
     color: #000000;
+    border-radius: 10px;
+    border: 1px solid green;
+    width: 160px;
+    text-align: center;
 }
 #sign{
     font-family: Merriweather;
@@ -56,15 +61,19 @@ font-style: normal;
 font-weight: normal;
 font-size: 36px;
 line-height: 45px;
-background-color: greenyellow;
+background-color: #40A013;
 color: #000000;
+border-radius: 10px;
+border: 1px solid green;
+width: 160px;
+text-align: center;
 }
 #font{
     font-family: Merriweather;
-font-style: normal;
-font-weight: 800;
-font-size: 20px;
-line-height: 30px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
 }
 h1{
 font-family: Merriweather;
@@ -76,9 +85,40 @@ line-height: 30px;
 #more{
     text-align: center;
     font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    color:#000000
+    
+}
+#more > p{
+    padding-top: 8px;
+    background-color: #40A013;
+    margin-right: 350px;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+em{
+    color: #40A013;
+    font-style: normal;
+}
+#footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+#com{
+    font-family: Merriweather;
 font-style: normal;
-font-weight: normal;
-font-size: 36px;
+font-weight: bold;
+font-size: 30px;
 line-height: 45px;
-color:#000000
+}
+#copy{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
 }
