@@ -1,0 +1,16 @@
+body{
+    
+}
+.header{
+    display: flex;
+    
+}
+.logoimg{
+
+}
+.nav ul li{
+    display: inline;
+    justify-content:space-between ;
+    padding-right: 20px;
+    
+}
