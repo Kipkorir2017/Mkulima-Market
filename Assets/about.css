@@ -2,15 +2,32 @@ body{
     
 }
 .header{
-    display: flex;
-    
+    display:flex;
+    justify-content: space-between;
+    border:1px grey solid;
+    box-shadow: black;
+    padding-bottom: 20px; 
+    align-items:center;
+    height:fit-content; 
 }
 .logoimg{
+    float: left;
 
 }
+.nav ul{
+    list-style:none ;
+    display: flex;
+    margin-right: 100px;
+    /* padding-left: 700px; */
+}
 .nav ul li{
-    display: inline;
-    justify-content:space-between ;
-    padding-right: 20px;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-size: 30px;
+
+    
+}
+footer p{
+    text-align: center;
     
 }
