@@ -2,29 +2,42 @@
     margin: 0%;
     
 }
-/* body{
-    width: 100%;
-} */
+body{
+    background-color: grey;
+}
 
 .nav{
     background-color: white;
    display: inline-flex;
    border: 1px  oldlace solid;
+   display: flex;
+   justify-content: space-between;
   
 }
-.nav img{
+.logoimg img{
     float: left;
     height: 5opx;
     width: 70px;
 }
-.nav ul li{
+#menuitems ul{
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+    
+
+}
+#menuitems ul li{
+    padding-right: 50px;
+    padding-top: 20px;
+}
+/* .nav ul li{
 
     display: inline-flex;
     list-style: none;
    
 
    
-}
+} */
 .image p{
 position: absolute;
 width: 529px;
@@ -44,7 +57,21 @@ color: #FFFFFF;
 }
 .contact{
     display: flex;
-    margin-left: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    justify-content: space-between;
+    
+
+}
+.phone{
+    background-color: honeydew;
+   text-align: center;
+
+}
+.message{
+    background-color: honeydew;
+    text-align: center;
 }
 .message img{
     align-items: center;
