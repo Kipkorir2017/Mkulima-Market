@@ -318,3 +318,44 @@ body{
     height:fit-content;
     padding:20px 20px 20px 20px;
 }
+.non-perishables{
+    padding-top:20px;
+    text-align:center;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+}
+.non-perishables>.nonpergoodstitle{
+    border:2px solid green;
+    width:30%;
+    text-align:center;
+    background-color:#4F9C33;
+}
+.pricetable>.tablelist{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    padding-top:20px;
+}
+table{
+    padding:20px 20px 20px 20px;
+    border:2px solid blue;
+    font-size:xx-large;
+    width:70%;
+    border-collapse:collapse;
+}
+th{
+    padding:20px 20px 20px 20px;
+    border:2px solid blue;
+    border-collapse:collapse;
+}
+tr{
+    padding:20px 20px 20px 20px;
+    border:2px solid blue;
+    border-collapse:collapse;
+}
+td{
+    padding:10px;
+    border:2px solid blue;
+    border-collapse:collapse;
+}
