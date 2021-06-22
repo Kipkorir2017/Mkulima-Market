@@ -4,35 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/form.css">
+
     <script src="js.js"></script>
     <title>Document</title>
 </head>
 <body>
     <!-- this is a logo  -->
-    <div>
-        <img src="">
+<div class="nav" >
+    <div class="logoimg">
+        <img src="./images/logo.png">
     </div>
-    <!-- navigation bar -->
-    <div class="nav">
+    <div id="menuitems">
         <ul>
             <li>HOME</li>
             <li>PRODUCTS</li>
             <li>ABOUT US</li>
             <li>CONTACT US</li>
         </ul>
+
     </div>
+       
+    <!-- navigation bar -->
+       
+</div>
+
     <!-- background image of the body with some Description -->
-    <div>
-        <p>We'd Like To Hear From You</p>      
+<div class="about">
+    <div class="image">
+        <p>We'd Like To Hear From You!</p>    
+        <img src="/images/cabbage5.jpg" alt="background image" width="1350px" height="400px">
+          
     </div>
-    <div>
-        <img src="" alt="">
-    </div> 
+</div>
     <!-- contact details  -->
+<div class="contact">
+    <div class="phone">
+        <img src="images/phone.png" alt="" width="30px" height="30px">
+        <p>Talk to us</p>
+        <p>Farmers can get in touch with us in case of any<br> challenge or you want a direct Market for your products</p>
+        <p style="color: red;">+254710383269</p>
+        <button>other contacts</button>
+    </div>
+    <!-- whatsapp  -->
+    <div class="message">
+        <img src="images/message.png" alt="" width="20px" height="20px">
+        <p>Message us</p>
+        <p>You may fail to reach us on call feel free to <br>talk to us through message us on this number</p>
+        <p style="color: red;">+254725427017</p>
+        <div>
+            <button>other contacts</button>
+        </div>  
+    </div> 
+    </div>
+    <!-- form -->
+    <div class="form">
+        <h1>For more</h1>
+        <form action="" name="sendMessage">
+            <div id="inputFields" class="alignIn">
+                <div id="f1">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" name="name">
+                    <div id="error"></div>
+                </div>
+                <div id="f1">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Kipkorir1@gmail.com" name="email">
+                    <div id="error"></div>
+                </div>
+            </div>
+            <div id="inputFields">
+                <label for="">Message</label>
+                <textarea id="message" placeholder="Leave Message here" name="message"></textarea>
+            </div>
+            <div id="buttons">
+                <input type="button" value="SEND MESSAGE" id="btn">
+            </div>
+        </form>
+</div> 
+</div>
     <div>
-        <img src="" alt="">
-        <p></p>
-    </div>  
+        <footer> 
+            <p>www.<strong style="color: green;">mkulimamarket</strong>.com</p> 
+            <p>© Moringa 2021</p>
+        </footer>
+
+    </div>
 </body>
 </html>

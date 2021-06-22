@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    
+}
+body{
+    background-color: grey;
+}
+
+.nav{
+    background-color: white;
+   display: inline-flex;
+   border: 1px  oldlace solid;
+   display: flex;
+   justify-content: space-between;
+  
+}
+.logoimg img{
+    float: left;
+    height: 5opx;
+    width: 70px;
+}
+#menuitems ul{
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+    
+
+}
+#menuitems ul li{
+    padding-right: 50px;
+    padding-top: 20px;
+}
+/* .nav ul li{
+
+    display: inline-flex;
+    list-style: none;
+   
+
+   
+} */
+.image p{
+position: absolute;
+width: 529px;
+height: 45px;
+left: 500px;
+top: 300px;
+
+font-family: Merriweather;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 15px;
+
+color: #FFFFFF;
+
+
+}
+.contact{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    justify-content: space-between;
+    
+
+}
+.phone{
+    background-color: honeydew;
+   text-align: center;
+
+}
+.message{
+    background-color: honeydew;
+    text-align: center;
+}
+.message img{
+    align-items: center;
+}
+
+
+
+.form {
+    width: 600px;
+    padding: 30px;
+    padding-top: 5px;
+    margin: auto;
+    margin-bottom: 50px;
+    font-weight: 500px;
+    font-size: 10px;
+    color: rgb(16, 139, 0);
+}
+
+.form h1 {
+    text-align: center;
+    color: rgb(22, 22, 21);
+}
+
+form {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.alignIn {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#name,
+#email,
+#message,
+#btn {
+    width: 100%;
+    height: 55px;
+    box-sizing: border-box;
+    border: 1px solid rgb(187, 171, 165);
+    border-radius: 4px;
+    margin-top: 7px;
+}
+
+#message {
+    height: 150px;
+}
+
+#f1 {
+    flex: 1;
+    padding: 2px;
+    text-align: left;
+}
+::placeholder{
+    color: gray;
+}
+
+#btn {
+    width: 60%;
+    margin-right: 10px;
+    background-color: #6dff50;
+    color: white;
+    border: none;
+    font-size: 12pt;
+}
+
+#buttons {
+    width: 50%;
+    text-align: left;
+}
+
+footer {
+    background-color: white;
+    box-sizing: border-box;
+    color: black;
+    padding: 20px;
+    overflow: hidden;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
+button{
+    background-color: red;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+
+
+
+
+
