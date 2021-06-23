@@ -408,6 +408,5 @@ a {
 }
 a:hover {
     color:green; 
-    text-decoration:none; 
     cursor:pointer;  
 }
