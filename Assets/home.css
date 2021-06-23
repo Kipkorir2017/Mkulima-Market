@@ -37,11 +37,10 @@ width:80%;
 }
 .log{  
     display: flex;
-    border: 2px solid blue;
-    width: 70%;
-    justify-content: space-evenly;
-    padding-top: 10px;
+    text-align: center;
+
 }
+
 #login{
     font-family: Merriweather;
     font-style: normal;
@@ -51,9 +50,10 @@ width:80%;
     background-color: #40A013;
     color: #000000;
     border-radius: 10px;
-    border: 1px solid green;
+    border: 1px solid #40A013;
     width: 160px;
     text-align: center;
+    margin-left: 70%;
 }
 #sign{
     font-family: Merriweather;
@@ -64,9 +64,10 @@ line-height: 45px;
 background-color: #40A013;
 color: #000000;
 border-radius: 10px;
-border: 1px solid green;
+border: 1px solid #40A013;
 width: 160px;
 text-align: center;
+margin-left: 5%;
 }
 #font{
     font-family: Merriweather;
@@ -77,9 +78,9 @@ text-align: center;
 }
 h1{
 font-family: Merriweather;
-font-style: italic;
-font-weight: normal;
-font-size: 30px;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
 line-height: 30px;
 }
 #more{
@@ -95,7 +96,7 @@ line-height: 30px;
     background-color: #40A013;
     text-align: center;
     border-radius: 20px;
-    border: 1px solid blue;
+    border: 1px solid #40A013;
     width: 180px;
     margin-left: 43%;
 }
