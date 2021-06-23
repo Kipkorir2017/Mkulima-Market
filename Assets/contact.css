@@ -56,7 +56,10 @@ color: #FFFFFF;
 }
 .contact{
     display: flex;
-   justify-content: center;
+   justify-content: space-between;
+   padding-left: 70px;
+   padding-right: 110px;
+   padding-top: 5px;
    
    
   
@@ -67,13 +70,16 @@ color: #FFFFFF;
     background-color: honeydew;
    text-align: center;
    padding:10px;
+    background: #FFFFFF;
    
 
 }
 .message{
     background-color: honeydew;
     text-align: center;
-    padding:20px
+    padding:10px;
+    background: #FFFFFF;
+
 }
 .message img{
     align-items: center;
