@@ -402,6 +402,7 @@ em{
     color:#4F9C33;
     font-weight:600px;
 }
+<<<<<<< HEAD
 a {
     color: black;
     text-decoration: none;
@@ -411,3 +412,6 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
 }
+=======
+a:link { text-decoration: none; }
+>>>>>>> 4ea561cd24ac7c754ba2bc5101ed10b696c3b24f
