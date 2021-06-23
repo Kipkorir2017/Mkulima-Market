@@ -24,7 +24,7 @@ body{
     display: flex;
     margin-right: 100px;
     font-size: 20px;
-    font-weight: 200;
+   
     
 
 }
@@ -83,7 +83,7 @@ color: #FFFFFF;
     margin-bottom: 50px;
     font-weight: 500px;
     font-size: 10px;
-    color: rgb(16, 139, 0);
+    color: rgb(125, 238, 110);
 }
 
 .form h1 {
@@ -163,6 +163,8 @@ button{
     background-color: red;
     border-radius: 20px 20px 20px 20px;
 }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
 
 
 

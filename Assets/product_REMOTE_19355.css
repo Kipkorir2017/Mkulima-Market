@@ -1,5 +1,4 @@
 body{
-    overflow-x:auto;
     width:auto;
 }
 .header{
@@ -402,3 +401,4 @@ em{
     color:#4F9C33;
     font-weight:600px;
 }
+a:link { text-decoration: none; }
