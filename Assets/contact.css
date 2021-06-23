@@ -3,7 +3,8 @@
     
 }
 body{
-    background-color: grey;
+    background-color:gray;
+   
 }
 
 .nav{
@@ -12,12 +13,13 @@ body{
    border: 1px  oldlace solid;
    display: flex;
    justify-content: space-between;
+   
   
 }
 .logoimg img{
     float: left;
-    height: 5opx;
-    width: 70px;
+    height: 70px;
+    width: 100px;
 }
 #menuitems ul{
     list-style: none;
@@ -32,11 +34,11 @@ body{
     padding-right: 50px;
     padding-top: 20px;
 }
-.image p{
+.image> p{
 position: absolute;
-width: 529px;
+width: 100%;
 height: 45px;
-left: 500px;
+/* left: 500px; */
 top: 300px;
 
 font-family: Merriweather;
@@ -44,6 +46,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 15px;
+display: flex;
+justify-content: center;
+
 
 color: #FFFFFF;
 
@@ -51,10 +56,10 @@ color: #FFFFFF;
 }
 .contact{
     display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 10px;
-    justify-content: space-between;
+   justify-content: center;
+   
+   
+  
     
 
 }
@@ -62,6 +67,7 @@ color: #FFFFFF;
     background-color: honeydew;
    text-align: center;
    padding:10px;
+   
 
 }
 .message{
