@@ -40,7 +40,7 @@ hr {
 }
 
 .registerbtn:hover {
-  opacity:1;
+  opacity:10;
 }
 
 /* Add a blue text color to links */
@@ -56,4 +56,4 @@ a {
 .container signin{
     text-align: left;
 }
-   
+a:link { text-decoration: none; }
