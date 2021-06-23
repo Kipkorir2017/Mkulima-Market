@@ -29,6 +29,7 @@ align-items: center;
 justify-content: space-around;
 width:80%;
 }
+/* this wil reduce the opacity of the image */
 .fruits{
     opacity: 0.8;
 }
