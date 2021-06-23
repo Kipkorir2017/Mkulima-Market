@@ -17,7 +17,7 @@ window.onload = function () {
             alert("Please enter correct email")
             email.focus();
             return false;
-        } else if (names.length < 3 || names.length > 35 || names.match(/^[0-9]+$/)) {
+        } else if (names.length < 3 || names.length > 35) {
             alert("Please enter correct name");
             names.focus();
             return false;
