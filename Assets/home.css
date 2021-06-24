@@ -22,15 +22,16 @@ body{
     font-family: Merriweather;
 font-style: normal;
 font-weight: normal;
-font-size: 32px;
+font-size: 26px;
 display: flex;
 text-align: center;
 align-items: center;
 justify-content: space-around;
 width:80%;
 }
-#home{
-    color: #40A013;
+/* this wil reduce the opacity of the image */
+.fruits{
+    opacity: 0.8;
 }
 #vision{
     text-align: center;
@@ -46,7 +47,7 @@ width:80%;
     font-family: Merriweather;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 45px;
     background-color: #40A013;
     color: #000000;
@@ -60,7 +61,7 @@ width:80%;
     font-family: Merriweather;
 font-style: normal;
 font-weight: normal;
-font-size: 36px;
+font-size: 26px;
 line-height: 45px;
 background-color: #40A013;
 color: #000000;
@@ -93,14 +94,6 @@ line-height: 30px;
     color:#000000
     
 }
-#more > p{
-    background-color: #40A013;
-    text-align: center;
-    border-radius: 20px;
-    border: 1px solid #40A013;
-    width: 180px;
-    margin-left: 43%;
-}
 em{
     color: #40A013;
     font-style: normal;
@@ -125,3 +118,11 @@ line-height: 45px;
     line-height: 30px;
 }
 a:link { text-decoration: none; }
+a{
+    color: black;
+}
+a:hover{
+    color: green;
+    text-decoration: none;
+    cursor: pointer;
+}
