@@ -22,6 +22,7 @@ If you want to post images of the products get to this page
 about page
 know more about us in the about page
 <img src="./images/about.png" alt="about page">
+<p>&nbsp;</p>
 contact page
 Get to contact page and get in touch with us.
 <img src="./images/contact.png" alt="contact page">
