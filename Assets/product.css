@@ -2,15 +2,16 @@
 @media screen and (max-width: 1060px) {
     body{
         width:auto;
+        overflow-x: hidden;
     } 
 }
 
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
-    /* body{
+    body{
         overflow-x:hidden;
         width:fit-content;
-    }  */
+    } 
 }
 body{
     overflow-x:auto;
@@ -58,10 +59,12 @@ body{
     width:250px;
     text-align:center;
 }
-.prod-del-search>.search{
+.prod-del-search>.search>#search{
     border:2px solid green;
     width:600px;
     border-radius:20px;
+    height:60px;
+    font-size:x-large;
 }
 .bevprodtitle{
     display:flex;
@@ -422,5 +425,8 @@ a:hover {
     color:green; 
     text-decoration:none; 
     cursor:pointer;  
+}
+.orderpw:hover, .ordermuratina:hover, .ordermursik:hover, .orderpork:hover, .orderpw:hover, .orderrabbitmeat:hover, .ordertomatoes:hover, .ordermaize:hover, .ordermadafu:hover, .orderkls:hover, .orderfreshfish:hover, .ordercauliflower:hover{
+    font-size:large;
 }
 /* end of the code */
