@@ -13,9 +13,13 @@ Git
 Laptop
 Browser
 ## screenshots of our website
+home page
 <img src="./images/home.png" alt="home page">
+product page
 <img src="./images/product.png" alt="product page">
+about page
 <img src="./images/about.png" alt="about page">
+contact page
 <img src="./images/contact.png" alt="contact page">
 
 
