@@ -2,7 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
         <title>Products</title>
         <link rel="stylesheet" type="text/css" href="./Assets/product.css">
     </head>
@@ -14,26 +16,26 @@
             <div class = "headertext">
                 <div class="hometext">
                    <a href="Home.html" ><p>
-                        Home
+                        HOME
                     </p></a>
                 </div>
                 <div class="producttext">
                    <a href="PRODUCTS.html"><p>
-                        Products
+                        PRODUCTS
                     </p></a> 
                 </div>
                 <div class="abouttext">
                     <a href="ABOUT.html"><p>
-                        About
+                        ABOUT
                     </p></a>
                 </div>
                 <div class="contacttext">
                    <a href="CONTACT.html"> <p>
-                        Contact
+                        CONTACT
                     </p></a>
                 </div>
                 <div class="shoppingicon">
-                    <!-- Code goes here -->
+                    <img src="./images/cart.jpg" height="50px" width="50px">
                 </div>
             </div>
         </div>
@@ -51,9 +53,7 @@
                 </div>
             </div>
             <div class="search">
-                <p>
-                    search
-                </p>
+                <input type="text" id="search" onkeyup="myFunction()" placeholder="Search...">
             </div>
         </div>
         <div class="bevprodtitle">
@@ -323,9 +323,7 @@
         </div>
         <div class="footer">
             <div class="contactus">
-                <p>
-                    Contact Us
-                </p>
+               <a href="./CONTACT.html"><p>Contact Us</p></a>
             </div>
             <div class="webright">
                 <div class="website">
@@ -336,5 +334,8 @@
                 </div>
             </div>
         </div>
+        <script src="./js.js">
+        myFunction();
+        </script>
     </body>
 </html>
