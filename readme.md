@@ -14,12 +14,16 @@ Laptop
 Browser
 ## screenshots of our website
 home page
+welcome to our website,create account here and navigate our site
 <img src="./images/home.png" alt="home page">
 product page
+If you want to post images of the products get to this page
 <img src="./images/product.png" alt="product page">
 about page
+know more about us in the about page
 <img src="./images/about.png" alt="about page">
 contact page
+Get to contact page and get in touch with us.
 <img src="./images/contact.png" alt="contact page">
 
 
