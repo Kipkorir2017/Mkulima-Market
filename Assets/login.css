@@ -3,7 +3,8 @@
     max-width: 700px;
     height: 300px;
     background-color: white;
-    align-items: center;
+    margin-left:200PX;
+    margin-right: 200PX;
     
   }
   
@@ -27,6 +28,16 @@
     cursor: pointer;
     width: 100%;
   }
+  a:link { 
+    text-decoration: none;
+    color: white;
+   }
+  a:hover {
+    color:white; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
   
   
   
