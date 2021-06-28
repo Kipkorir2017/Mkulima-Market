@@ -1,4 +1,4 @@
-## Mkulima Market Website
+## MkulimaMarket Website
 This a platform that will enable farmers  get a direct market for their farm produce. 
 
 By Benjamin Kipkorir, Daniel Muruthi,Viola Kaveza & Caleb Kipng'etich
