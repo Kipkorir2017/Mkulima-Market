@@ -3,32 +3,40 @@ body{
     width: 100%;
     height: 100%;
 }
-#nav{
+/* #nav{
     height: 8.47%;
     background: #ffff;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 100%;
     display: flex;
     justify-content: space-between;
 
-}
+} */
 #logo{
     padding-left:10px;
     padding-top:10px;
     height: 130px;
 }
-
-.line{
-    font-family: Merriweather;
-font-style: normal;
-font-weight: normal;
-font-size: 26px;
-display: flex;
-text-align: center;
-align-items: center;
-justify-content: space-around;
-width:80%;
+#nav{
+    border: 1px solid gray;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    display: flex;
+    border: 1px  oldlace solid;
+    justify-content: space-between;
+   
+  
 }
+
+#line ul{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+#line ul li{
+    padding-right: 40px;
+    padding-top: 20px;
+}
+    
+
 /* this wil reduce the opacity of the image */
 .fruits{
     opacity: 0.8;
@@ -49,7 +57,7 @@ width:80%;
     font-weight: normal;
     font-size: 26px;
     line-height: 45px;
-    background-color: #40A013;
+    background-color: white;
     color: #000000;
     border-radius: 10px;
     border: 1px solid #40A013;
@@ -63,7 +71,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 26px;
 line-height: 45px;
-background-color: #40A013;
+background-color: white;
 color: #000000;
 border-radius: 10px;
 border: 1px solid #40A013;

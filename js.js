@@ -13,11 +13,12 @@ window.onload = function () {
         if (email == "" || names == "" || message == "") {
             alert("Please fill out all fields");
             return false;
-        } else if (atposition < 1 || (dotposition - atposition < 2)) {
+        }
+        else if (atposition < 1 || (dotposition - atposition < 2)) {
             alert("Please enter correct email")
             email.focus();
             return false;
-        } else if (names.length < 3 || names.length > 35) {
+         }else if (names.length < 3 || names.length > 35) {
             alert("Please enter correct name");
             names.focus();
             return false;
