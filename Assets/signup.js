@@ -1,27 +1,24 @@
-function validateForm() {
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value.indexOf("@");
-    var password = document.getElementById("password").value;
-    var location =document.getElementById("location").value;
+function validatemyForm() {
+    var name = document.getElementById("myForm")("name").value;
+    var email = document.getElementById("myForm")("email").value;
+    var password = document.getElementById("myForm")("psw").value;
+    var location =document.getElementById("myForm")("location").value;
+    atpos=email.indexof("@");
+    dotpos = email.lastIndexOf(".");
     submitOK = "true";
-
-    // if (name == ""|| password =="" ||location==""||email =="") {
-    //   alert("Filled out this Field");
-    //   return false;
-    // }
-    if (name.length > 8) {
+    if (name.length<5) {
         alert("The name may have no more than 8 characters");
         submitOK = "false";
       }
-      if ( email== -1) {
-        alert("Not a valid e-mail!");
-        submitOK = "false";
-      }
-      if (password> 6) {
+      if (atpos < 1 || ( dotpos - atpos < 2 )) {
+        alert("Please enter correct email ID")
+        return false;
+     }
+      if (password.length < 6) {
         alert("password must be more than 6 characters");
         submitOK = "false";
 }
-if (location.length <3) {
+if (location.length <=2) {
     alert("invalid location");
     submitOK = "false";
   }
